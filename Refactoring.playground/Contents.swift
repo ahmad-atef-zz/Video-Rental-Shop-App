@@ -10,13 +10,22 @@
  # Video Retiral Store
  ![decorator pattern.png](video_retiral.png)
  */
+
+/// MovieType enum to descrip the Category of the Movie,
+///
+/// - REGULAR: Regular Category
+/// - CHILDRENS: CHILDRENS Category
+/// - NEW_RELEASE: NEW_RELEASE Category
 enum MovieType : String{
     case REGULAR , CHILDRENS, NEW_RELEASE
 }
 
+
 enum calculateRentalMethodolgy : String{
     case DEFAULT, SUGRED, BLACKFRIDAY
 }
+
+
 struct Movie{
     var id : Int
     var title : String
