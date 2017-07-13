@@ -3,6 +3,13 @@
  
  ![decorator pattern.png](refactoring.png)
  */
+
+
+
+/*:
+ # Video Retiral Store
+ ![decorator pattern.png](video_retiral.png)
+ */
 enum MovieType : String{
     case REGULAR , CHILDRENS, NEW_RELEASE
 }
